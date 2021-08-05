@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Akıllı Rekram Uygulaması</string>
+    <string name="Email">Email</string>
+    <string name="Parola">Parola</string>
+    <string name="guncelleParola">Parola Güncelle</string>
+    <string name="cikisyap">Çıkış Yap</string>
+    <string name="kullaniciSil">Kullanıcıyı Sil</string>
+    <string name="kullaniciGuncelle">Kullanıcıyı Güncelle</string>
+    <string name="geri">Geri</string>
+    <string name="kampanyaEkle">Kampanya Ekle</string>
+    <string name="kampanyaListele">Kampanya Listele</string>
+
+    <string name="firmaAdi">Firma Adı</string>
+    <string name="firmaxLokasyon">X Lokasyon</string>
+    <string name="firmayLokasyon">Y Lokasyon</string>
+    <string name="kampanyaIcerik">Kampanya Içerik</string>
+    <string name="kampanyaSuresi">Kampanya Süresi</string>
+</resources>

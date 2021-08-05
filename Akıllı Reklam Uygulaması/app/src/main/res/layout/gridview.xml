@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundColor">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:id="@+id/cardview">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/textAd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/textX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/textY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:layout_marginTop="95dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/textIcerik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/textSure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/textKategori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

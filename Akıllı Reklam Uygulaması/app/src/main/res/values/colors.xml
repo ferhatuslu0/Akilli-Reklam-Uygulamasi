@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#51a5cf</color>
+    <color name="colorPrimaryDark">#539ac4</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="backgroundColor">#D7DBF1</color>
+    <color name="ButtonColor">#Ffcc00</color>
+    <color name="cikisButon">#0B237C</color>
+</resources>

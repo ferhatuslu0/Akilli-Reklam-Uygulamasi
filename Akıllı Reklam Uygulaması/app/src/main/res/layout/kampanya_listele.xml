@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnGeri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Geri Dön"
+        android:textColor="#FFFF"
+        android:background="@color/ButtonColor" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <SearchView
+            android:id="@+id/kategori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kategori"
+            />
+
+
+        <EditText
+            android:layout_marginTop="40dp"
+            android:id="@+id/xLok"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="X kordinant" />
+
+        <EditText
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/yLok"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Y kordinant"
+            />
+        <EditText
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/mesafeGir"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Mesafe Gir"
+            />
+
+    </RelativeLayout>
+
+
+
+
+        <android.support.v7.widget.RecyclerView
+
+            android:id="@+id/gridDoldur"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/backgroundColor">
+
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+</LinearLayout>
